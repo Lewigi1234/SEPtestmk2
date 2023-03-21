@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Stylesheets/style.css">
+  <link rel="stylesheet" href="/Stylesheets/contactstyle.css">
+  <title>Contact Us - SEPtest</title>
+  <link rel="stylesheet" href="/Stylesheets/home.css">
+  <link rel="stylesheet" href="/Stylesheets/classic-menu.css">
+</head>
+<body>
+  
+  <nav id="classicMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="industries.html">Industries</a></li>
+      <li><a href="case-studies.html">Case Studies</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <div class="container header-spacing">
+    <h1 class="animated-title">Contact Us</h1>
+    <p class="intro-text">If you're interested in learning more about our social engineering penetration testing services or have any questions, please feel free to reach out. We'd love to hear from you!</p>
+
+    <div class="form-container">
+      <form id="contact-form" class="animated-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error" id="name-error"></span>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error" id="email-error"></span>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="error" id="message-error"></span>
+        </div>
+        <input type="submit" value="Submit" class="submit-button">
+      </form>
+    </div>
+    
+  </div>
+  <script src="animations.js"></script>
+  <script src="common.js"></script>
+  
+</body>
+</html>

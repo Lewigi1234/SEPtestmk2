@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | SEPtest</title>
+<link rel="stylesheet" href="/Stylesheets/home.css">
+<link rel="stylesheet" href="/Stylesheets/style.css">
+</head>
+<body>
+  <body class="homepage">
+
+  <div class="container">
+    <pre class="logo">
+    _____ ______ _____  _            _   
+   / ____|  ____|  __ \| |          | |   
+  | (___ | |__  | |__) | |_ ___  ___| |_ 
+   \___ \|  __| |  ___/| __/ _ \/ __| __|
+    ___) | |____| |    | ||  __/\__ \ |_ 
+  |_____/|______|_|     \__\___||___/\__|
+          <h2>Social Engineering Pentesting</h2>              
+    </pre>
+    <div class="toggle-menu">
+      <button id="toggle-menu-btn">Toggle Classic Menu</button>
+    </div>
+    <nav id="classic-menu" hidden>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="terminal">
+      <h2 class="terminal-header">Site Navigation Terminal</h2>
+      <div class="terminal-content" id="terminal-content">
+        <p>Welcome to SEPtest</p>
+        <p>Type 'help' to display available commands to navigate the site...
+        Type corresponding number from the menu item...</p>
+        <p><span>$</span><span id="typed-command"></span><span class="cursor" id="cursor">_</span></p>
+      </div>
+      <input type="text" id="terminal-input" autofocus>
+    </div>
+  </div>
+  
+  
+
+
+  
+  <script>
+    // Add this script block to handle the toggle button and classic menu
+    const toggleMenuBtn = document.getElementById('toggle-menu-btn');
+    const classicMenu = document.getElementById('classic-menu');
+    
+
+    toggleMenuBtn.addEventListener('click', () => {
+      classicMenu.toggleAttribute('hidden');
+    });
+  </script>
+  <script src="animations.js"></script>
+  <script src="common.js"></script>
+  
+
+  <!-- <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-section">
+        <h3 class="footer-title">Quick Links</h3>
+        <a href="about.html" class="footer-link">About</a>
+        <a href="services.html" class="footer-link">Services</a>
+        <a href="industries.html" class="footer-link">Industries</a>
+        <a href="case-studies.html" class="footer-link">Case Studies</a>
+        <a href="blog.html" class="footer-link">Blog</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+   <div class="footer-section">
+                <h3 class="footer-title">Stay Connected</h3>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com" target="_blank" class="social-icon" aria-label="Facebook">
+                    <img src="path/to/facebook-icon.svg" alt="Facebook" />
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" class="social-icon" aria-label="Twitter">
+                    <img src="path/to/twitter-icon.svg" alt="Twitter" />
+                  </a>
+                  <a href="https://www.linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <img src="path/to/linkedin-icon.svg" alt="LinkedIn" />
+                  </a>
+                </div>
+              </div>
+              <div class="footer-section">
+                <h3 class="footer-title">Contact Us</h3>
+                <p>Email: info@septest -->
+          
+</body>
+</html>
+
+
+
+
+
+
